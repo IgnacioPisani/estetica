@@ -59,9 +59,16 @@ function SectionSpecialities() {
                   }}>
                   <CardImg
                     top
-                    src={require("assets/img/cymar.jpeg")}
+                    src={require("assets/img/specialities/kinesiologia.jpg")}
                     alt="Especialidad"
-                    style={{ maxHeight: "200px", objectFit: "cover" }}
+                    style={{ 
+                      maxHeight: "200px", 
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "200px", // Ajusta el alto deseado
+                      objectFit: "cover",
+                    }}
+                    
                   />
                   <CardBody>
                     <CardTitle tag="h5" style={{ fontWeight: "bold", color:"#324266" }}>Kinesiología</CardTitle>
@@ -80,9 +87,15 @@ function SectionSpecialities() {
                   }}>
                   <CardImg
                     top
-                    src={require("assets/img/cymar.jpeg")}
+                    src={require("assets/img/specialities/nutricion.jpg")}
                     alt="Especialidad"
-                    style={{ maxHeight: "200px", objectFit: "cover" }}
+                    style={{ 
+                      maxHeight: "200px", 
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "200px", // Ajusta el alto deseado
+                      objectFit: "cover",
+                    }}
                   />
                   <CardBody>
                     <CardTitle tag="h5" style={{ fontWeight: "bold", color:"#324266" }}>Nutrición</CardTitle>
@@ -101,9 +114,15 @@ function SectionSpecialities() {
                   }}>
                   <CardImg
                     top
-                    src={require("assets/img/cymar.jpeg")}
+                    src={require("assets/img/specialities/centro-estetico.jpg")}
                     alt="Especialidad"
-                    style={{ maxHeight: "200px", objectFit: "cover" }}
+                    style={{ 
+                      maxHeight: "200px", 
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "200px", // Ajusta el alto deseado
+                      objectFit: "cover",
+                    }}
                   />
                   <CardBody>
                     <CardTitle tag="h5" style={{ fontWeight: "bold", color:"#324266" }}>Medicina Estética</CardTitle>
@@ -122,9 +141,15 @@ function SectionSpecialities() {
                   }}>
                   <CardImg
                     top
-                    src={require("assets/img/cymar.jpeg")}
+                    src={require("assets/img/specialities/psicologia.webp")}
                     alt="Especialidad"
-                    style={{ maxHeight: "200px", objectFit: "cover" }}
+                    style={{ 
+                      maxHeight: "200px", 
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "200px", // Ajusta el alto deseado
+                      objectFit: "cover",
+                    }}
                   />
                   <CardBody>
                     <CardTitle tag="h5" style={{ fontWeight: "bold", color:"#324266" }}>Psicología</CardTitle>
