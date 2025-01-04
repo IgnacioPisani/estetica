@@ -13,7 +13,7 @@
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     padding: 0;
-    background: $bluelight-color;
+    background: $lightblue-color;
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 
     .navbar-brand {
@@ -213,7 +213,7 @@
 
     .navbar-nav{
         .nav-item .nav-link:not(.btn){
-            color: $white-color;
+            color: $default-color;
             border-color: $white-color;
         }
         .active .nav-link
@@ -222,7 +222,7 @@
         .nav-item .nav-link:hover,
         .nav-item .nav-link:focus{
             background-color: transparent;
-            color: $white-color;
+            color: $lightblue-color;
             @include opacity(1);
         }
         .nav .nav-item a.btn:hover{
