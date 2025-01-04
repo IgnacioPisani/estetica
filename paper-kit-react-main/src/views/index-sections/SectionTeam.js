@@ -31,7 +31,9 @@ function SectionTeam() {
             <Col md="6">
               <div style={{ padding: "20px" }}>
                 <h2 style={{ fontWeight: "bold" }}>Nuestro Equipo</h2>
-                <p>
+                <p    style={{
+                fontSize: "1.25rem"
+              }}>
                   Somos un grupo de profesionales dedicados a ofrecer la mejor
                   experiencia a nuestros clientes. Con pasión y compromiso,
                   trabajamos juntos para alcanzar nuestras metas y garantizar la
