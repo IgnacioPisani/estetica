@@ -43,6 +43,7 @@ import SectionDownload from "views/index-sections/SectionDownload.js";
 import SectionMap from "./index-sections/SectionMap";
 import SectionTeam from "./index-sections/SectionTeam";
 
+import SectionFeature from "./index-sections/SectionFeature";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -58,6 +59,7 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <SectionSpecialities />
+        <SectionFeature />
         <SectionMap />
         <SectionTeam />
         <SectionButtons />
