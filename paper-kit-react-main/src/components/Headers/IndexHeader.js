@@ -1,3 +1,21 @@
+/*!
+
+=========================================================
+* Paper Kit React - v1.3.2
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/paper-kit-react
+
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
 /*eslint-disable*/
 import React from "react";
 
@@ -10,36 +28,24 @@ function IndexHeader() {
   return (
     <>
       <div
-        className="page-header section-dark"
+        className="page-header"
         style={{
-          backgroundImage:
-            "url(" + require("assets/img/pexels-vhusko-8709687.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/pexels.jpg") + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              {/* Imagen del logo */}
               <img
-                src={require("assets/img/logo-g2m/g2mnaranja.webp")} // Cambia "logo.png" por la ruta de tu logo
-                alt="Logo"
-                style={{
-                  maxWidth: "250px", // Ajusta el tamaño máximo del logo
-                  marginBottom: "1rem",
-                }}
+                src={require("assets/img/cymar.png")}
+                alt="Cymar Logo"
+                className="logo-img"
+                style={{ maxWidth: "200px" }} // Ajusta el tamaño según sea necesario
               />
+              <div className="fog-low"></div>
+              <div className="fog-low right"></div>
             </div>
-            <h2 className="presentation-subtitle text-center">
-              <span style={{ color: "#FF8906", fontWeight: "bold", letterSpacing: "2px" }}>
-                CALIDAD
-              </span>{" "}
-              EN CADA GRANO,{" "}
-              <span style={{ color: "#FF8906", fontWeight: "bold", letterSpacing: "2px" }}>
-                AMOR
-              </span>{" "}
-              EN CADA PLATO.
-            </h2>
           </Container>
         </div>
         <div />

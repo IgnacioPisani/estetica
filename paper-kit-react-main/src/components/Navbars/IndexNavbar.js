@@ -72,7 +72,7 @@ function IndexNavbar() {
             title="Coded by Creative Tim"
           >
             <img
-                src={require("assets/img/logo-g2m/g2m-transparente.webp")} // Cambia "logo.png" por la ruta de tu logo
+                src={require("assets/img/cymar.png")} // Cambia "logo.png" por la ruta de tu logo
                 alt="Logo"
                 style={{
                   maxWidth: "50px", // Ajusta el tamaño máximo del logo
